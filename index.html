@@ -14,15 +14,16 @@
     <section>
         <img src="orl.jpg" alt="">
         <div>
-            Metade 01 da Pizza:
-            <input type="number" name="fnum" id="fnum"><br><br>
-            Metade 02 da Pizza: <input type="number" name="fnum2" id="fnum2"><br><br>
-            Outros Valores: <input type="number" name="fnum2" id="fnum3">
-            <input type="button" value="Calcular"  onclick="finalizar()">
+            <label for="fnum">Metade 01 da Pizza:</label>
+            <input type="number" name="fnum" id="fnum" placeholder="ex: 43,00"><br><br>
+            <label for="fnum2"> Metade 02 da Pizza:</label> 
+            <input type="number" name="fnum2" id="fnum2"  placeholder="ex: 33,00"><br><br>
+            <label for="fnum3"> Outros Valores: </label>
+           <input type="number" name="fnum2" id="fnum3" placeholder="ex: 3,00">
+            <input type="button" id="fb" value="Calcular" onclick="finalizar()">
         </div>    
         <div id="res">
         </div>
-
     </section>
     <footer>
         <footer>

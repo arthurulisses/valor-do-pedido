@@ -18,6 +18,6 @@ function finalizar(){
         }else{
             var tat = tot / 2 + Number(num3.value)
         }
-        res.innerHTML = `<p>O valors total do seu pedido é: ${tat} reais;<br></br> Precisará de troco?</p>`  
+        res.innerHTML = `<p>O valor total do seu pedido é: ${tat} reais;<br></br> Precisará de troco?</p>`  
     }
 }
